@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:flutterone/gradient_container.dart';
+
 void main() {
-  runApp(const MaterialApp(
-      home: Scaffold(
-    body: Center(
-      child: Text('hello world is Andrey'),
-    ),
-  )));
+  runApp(const MaterialApp(home: Scaffold(body: GradientContainer())));
 }
